@@ -1,0 +1,77 @@
+.buttondiv button {
+    margin-left: 30px;
+    background-color: yellowgreen;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    margin-top: 15px;
+    
+    
+}
+.main {
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+.content {
+    width: 970px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+h1 {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+#email {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    font-size: 18px;
+    width: 300px;
+}
+#parol {
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    font-size: 18px;
+    width: 300px;
+}
+#signin {
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+    font-size: 18px;
+    background-color: orange;
+    width: 303px;
+}
+#a {
+    position: absolute;
+    bottom: 170px;
+    left: 122px;
+    text-decoration: none;
+}
+#a2 {
+    position: absolute;
+    bottom: 170px;
+    left: 370px;
+    text-decoration: none;
+
+}
+.close {
+    position: absolute;
+    right: 460px;
+    top: -8px;
+    padding: 5px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+}
